@@ -2,3 +2,44 @@ html {
 	font-size: 16px;
 	font-family: "Open Sans", sans-serif;
 }
+
+.navbar {
+	margin-bottom: 0;
+	visibility: hidden; /* Change this with js */
+}
+
+nav ul {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+}
+
+nav ul a {
+	padding-left: 2rem;
+}
+
+header {
+	background-image: url("../images/rob-bates-306647.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 38rem;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: center;
+}
+
+@media all and (min-device-width: 1440px) {
+	header {
+		height: 55rem;
+	}
+}
+
+header h1 {
+	font-size: 5rem;
+	color: rgba(255,255,255,0.9);
+	font-family: "Spectral", sans-serif;
+	font-weight: 200;
+}
